@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto+Slab:100');
+
+body {
+	color: rgb(0,0,255);
+	font-family: roboto Slab;
+}
+h1{
+	color: rgb(255,69,0);
+	font-family: coda Caption;
+}
+#slogan{
+	font-style: italic;
+}
