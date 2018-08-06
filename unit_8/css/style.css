@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Roboto+Slab:100');
+
+body {
+	color: #60BCFC;
+	font-family: roboto Slab;
+	text-align: center;
+	background: #51595E;
+}
+h1{
+	color: #F6BC57;
+	font-family: coda Caption;
+	text-align: center;
+	text-decoration: none;
+}
+nav{
+	text-align: center;
+}
+#slogan{
+	font-style: italic;
+}
+nav li {
+	margin-left: 50px;
+	margin-right: 50px;
+	list-style: none;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+p {
+	text-align: center;
+}
+footer {
+	text-align: center;
+}
+ul#menu li{
+	display: inline;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:hover {
+	color: #000;
+}
+header {
+	background: #70ABF7;
+}
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;	
+}
